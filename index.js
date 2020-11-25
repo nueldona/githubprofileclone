@@ -56,7 +56,7 @@ tabItems.forEach(item => item.addEventListener('click', selectItem));
 
 // GitHub api and call function
 const github_data = {
-  token: "c622107001830bd9d9f82976656c498d7408e7cf",
+  token: "4c2e159388ace23fa0e59c509b107b77950644e5",
   username: "nueldona"
 };
 
@@ -111,9 +111,6 @@ fetch(baseUrl, {
               <div class="language">
                 <div class="dot" style="background-color: ${language.color}"></div>
                 <span><p>${language.name}</p></span>
-                <relative-time datetime="${repository.updatedAt}">
-                  8 hours ago
-                </relative-time>
 
               </div>
             </div>
