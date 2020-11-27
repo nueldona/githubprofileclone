@@ -55,8 +55,11 @@ function removeShow() {
 tabItems.forEach(item => item.addEventListener('click', selectItem));
 
 // GitHub api and call function
+// require('dotenv').config()
+// console.log(process.env)
+
 const github_data = {
-  token: "4c2e159388ace23fa0e59c509b107b77950644e5",
+  token: "fe68d389a6023faffed21e70bf2b845d95e4fdbd",
   username: "nueldona"
 };
 
@@ -91,7 +94,7 @@ const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
   "Content-Type": "application/json",
-  Authorization: "bearer " + github_data["token"],
+  Authorization: `bearer ${atob("ZmU2OGQzODlhNjAyM2ZhZmZlZDIxZTcwYmYyYjg0NWQ5NWU0ZmRiZA==")}`,
 };
 
 
