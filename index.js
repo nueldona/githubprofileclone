@@ -58,10 +58,10 @@ tabItems.forEach(item => item.addEventListener('click', selectItem));
 // require('dotenv').config()
 // console.log(process.env)
 
-const github_data = {
-  token: "fe68d389a6023faffed21e70bf2b845d95e4fdbd",
-  username: "nueldona"
-};
+// const github_data = {
+//   token: "fe68d389a6023faffed21e70bf2b845d95e4fdbd",
+//   username: "nueldona"
+// };
 
 // const fetch = require("node-fetch");
 const body = {
@@ -94,7 +94,7 @@ const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
   "Content-Type": "application/json",
-  Authorization: `bearer ${atob("ZmU2OGQzODlhNjAyM2ZhZmZlZDIxZTcwYmYyYjg0NWQ5NWU0ZmRiZA==")}`,
+  Authorization: `bearer ${atob("ZTRlYTQ1ZTI5YWE2NjZhMzc5NGVhMTg4NzJiZDIzNmU0Mzc3MTZkYw==")}`,
 };
 
 
